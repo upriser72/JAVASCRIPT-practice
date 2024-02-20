@@ -9,5 +9,9 @@ accountEmail="vs@gmail.com"
 accountPw="527347"
 accountCity="Lucknow"
 
+/*
+Prefer not to use var because it has issues with block and functional scope
+*/
+
 console.log(accountId);
 console.table([accountId,accountEmail,accountPw,accountCity,accountState])
