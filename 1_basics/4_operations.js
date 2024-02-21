@@ -25,3 +25,17 @@ console.log("1" + 2 + 2); //122
 console.log(1 + 2 + "2") //32
 console.log(1 + 2) //3
 console.log("1" + "2") //12
+
+console.log(true) //true
+console.log(+true); //1
+console.log(+""); //0  append with empty string or false or 0
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2  //not a good approach
+
+
+let gameCounter = 100
+++gameCounter;  //understand precedence
+console.log(gameCounter);//101
+gameCounter++
+console.log(gameCounter)  //102
