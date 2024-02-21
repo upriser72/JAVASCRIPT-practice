@@ -17,3 +17,9 @@ console.log(newValueInNumber)   //returns NaN which means n26abc got converted t
 let next =null
 let nextInNumber =Number(next)
 console.log(nextInNumber)      //returns/prints 0
+
+/*
+conversion of undefined to number will give NaN
+conversion of boolean true to number will give 1
+conversion of boolean false to number wioll give 0
+*/
