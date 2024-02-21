@@ -38,4 +38,4 @@ let gameCounter = 100
 ++gameCounter;  //understand precedence
 console.log(gameCounter);//101
 gameCounter++
-console.log(gameCounter)  //102
+console.log(gameCounter)  //102 
