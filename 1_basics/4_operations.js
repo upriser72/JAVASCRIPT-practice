@@ -35,7 +35,7 @@ num1 = num2 = num3 = 2 + 2  //not a good approach
 
 
 let gameCounter = 100
-++gameCounter;  //understand precedence
+++gameCounter;  //understand precedence read the documentation
 console.log(gameCounter);//101
 gameCounter++
 console.log(gameCounter)  //102 
