@@ -38,6 +38,7 @@ console.log(typeof myFunction);
 console.log(typeof userEmail);
 console.log(typeof heros);
 console.log (typeof myObj);
+console.log(typeof outsideTemp);// null is object datatype(important point)
 
 //function is called function object other than that, object and array is called object
 
