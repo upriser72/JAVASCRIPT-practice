@@ -9,7 +9,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 console.log(`Hello my name is ${name.toUpperCase()} and my repo count is ${repoCount}`);
 // the function toUpperCase() can be applied easily using string interpolation
 
-const gameName = new String('thios is a new string ')
+const gameName = new String('this-is-a-new-string')
 /*
 This is another way of declaring strings where String object is used and string value is
  passed as the constructor of that object
@@ -47,7 +47,7 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-10, -3)
 console.log(anotherString);
 
 const newStringOne = "   apple   "
@@ -56,8 +56,9 @@ console.log(newStringOne.trim());
 
 const url = "https://en.wikipedia.org/wiki/Wiki"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('.org', '.mine'))
 
 console.log(url.includes('sundar'))
+console.log(url.includes('wiki'))
 
 console.log(gameName.split('-'));
