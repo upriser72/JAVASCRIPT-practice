@@ -13,8 +13,28 @@ const gameName = new String('thios is a new string ')
 /*
 This is another way of declaring strings where String object is used and string value is
  passed as the constructor of that object
-*/
 
+String length
+String charAt()
+String charCodeAt()
+String at()
+String [ ]
+String slice()
+String substring()
+String substr()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String repeat()
+String replace()
+String replaceAll()
+String split()
+*/
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
 
