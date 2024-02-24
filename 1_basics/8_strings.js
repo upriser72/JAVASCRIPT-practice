@@ -35,12 +35,12 @@ String replace()
 String replaceAll()
 String split()
 */
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+ console.log(gameName[0]);  //t
+ console.log(gameName.__proto__); // {}
 
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+console.log(gameName.length);  //length of string
+console.log(gameName.toUpperCase()); // string in upper case
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
