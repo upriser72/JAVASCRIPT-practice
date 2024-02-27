@@ -13,4 +13,14 @@ toPrecision: ƒ toPrecision()
 toString: ƒ toString()
 valueOf: ƒ valueOf()
 */
+console.log(balance.toString().length)
+console.log(balance.toFixed(2))  // fixed to 2 decimal places
+
+const some= 187.7463
+console.log(some.toPrecision(3)) //188
+console.log(some.toPrecision(4)) //187.7
+console.log(some.toPrecision(2)) //1.9e+2
+console.log(some.toPrecision(5)) //187.75
+//values got rounded off to precision number
+// RETURN TYPE IS STRING
 
