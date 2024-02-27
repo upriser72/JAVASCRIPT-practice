@@ -31,4 +31,6 @@ console.log(num.toLocaleString('en-IN')) //1,00,00,000 gives Indian standard
 //++++++++++++++++MATHS+++++++++++++++
 
 console.log(Math) //Object [Math] {} Math is an object
-console.log(Math.abs(-3))
+console.log(Math.abs(-3))//3
+console.log(Math.round(3.8))//4
+console.log(Math.round(3.2))//3
