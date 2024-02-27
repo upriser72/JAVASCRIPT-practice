@@ -28,5 +28,7 @@ const num= 10000000
 console.log(num.toLocaleString()) //10,000,000 gives US standard
 console.log(num.toLocaleString('en-IN')) //1,00,00,000 gives Indian standard 
 
+//++++++++++++++++MATHS+++++++++++++++
 
-
+console.log(Math) //Object [Math] {} Math is an object
+console.log(Math.abs(-3))
