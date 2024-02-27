@@ -24,3 +24,9 @@ console.log(some.toPrecision(5)) //187.75
 //values got rounded off to precision number
 // RETURN TYPE IS STRING
 
+const num= 10000000
+console.log(num.toLocaleString()) //10,000,000 gives US standard
+console.log(num.toLocaleString('en-IN')) //1,00,00,000 gives Indian standard 
+
+
+
