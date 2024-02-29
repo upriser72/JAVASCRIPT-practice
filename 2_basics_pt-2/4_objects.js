@@ -8,8 +8,8 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "amitabh",
+            lastname: "bacchan"
         }
     }
 }
@@ -54,7 +54,7 @@ users[1].email   //index used for selecting object
 // console.log(Object.entries(tinderUser));  //gives separate arrays of key and value
                                              //[key1,val1] [key2,val2]......
 
-                                             
+
 
 
 
