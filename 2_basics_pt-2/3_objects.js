@@ -25,3 +25,9 @@ const JsUser = {
 // console.log(JsUser["full name"])  //better approach
 // console.log(JsUser[mySym])
 
+JsUser.email = "apple@chatgpt.com"  //changing the value of a key in object
+// Object.freeze(JsUser)   //for locking the values of the object
+JsUser.email = "bunny@microsoft.com"  //changing value of email again
+// console.log(JsUser); 
+//this time the value of email is apple@chatgpt.com only because object was freezed 
+
