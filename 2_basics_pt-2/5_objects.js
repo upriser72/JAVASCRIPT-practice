@@ -15,6 +15,9 @@ const {courseInstructor: instructor} = course //gave an easy name
 console.log(instructor);
 
 
+
+//JSON USED FOR API CALLS
+
 //JSON format as object
 // {
 //     "name": "hitesh",
