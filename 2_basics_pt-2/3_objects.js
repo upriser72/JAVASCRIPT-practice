@@ -12,6 +12,7 @@ const JsUser = {
     name: "apple",
     "full name": "kirti sinha",
     [mySym]: "mykey1",  // this is how a symbol is passed/defined in an object 
+                        //if no square braces are used,mySym is taken as a string not a symbol
     age: 18,
     location: "Jaipur",
     email: "something@google.com",
@@ -31,3 +32,14 @@ JsUser.email = "bunny@microsoft.com"  //changing value of email again
 // console.log(JsUser); 
 //this time the value of email is apple@chatgpt.com only because object was freezed 
 
+//defining function under object 
+
+JsUser.greeting = function(){
+    console.log("Hello JS user");
+}
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);  //using this keyword || using string interpolation
+}
+
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
