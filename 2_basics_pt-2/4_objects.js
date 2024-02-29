@@ -55,7 +55,7 @@ users[1].email   //index used for selecting object
                                              //[key1,val1] [key2,val2]......
 
 
-
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //check if that property exists in that object
 
 
 
