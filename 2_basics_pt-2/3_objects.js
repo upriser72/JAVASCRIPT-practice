@@ -4,7 +4,7 @@ If object is made by literal then its never a singleton.
 If object is made by constructor then its always singleton.
 */
 
-// object literals
+// OBJECT LITERALS  (NON SINGLETON)
 
 const mySym = Symbol("key1")   // defining a symbol datatype 
 //keys are taken as string by default
