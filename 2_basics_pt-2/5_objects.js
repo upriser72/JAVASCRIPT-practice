@@ -20,8 +20,8 @@ console.log(instructor);
 
 //JSON format as object
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",  
+//     "name": "vanshika",
+//     "coursename": "js ",  
 //     "price": "free"
 // }
 
