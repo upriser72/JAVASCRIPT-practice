@@ -7,7 +7,6 @@ const course = {
 }
 
 // course.courseInstructor  //long syntax to use multiple times
-
 //const {courseInstructor} = course
 // console.log(courseInstructor);
 
