@@ -11,7 +11,7 @@
 
 //objects
 console.log(typeof 12)
-console.log(typeof age)
+//console.log(typeof age)
 console.log(typeof "hello")
 console.log(typeof null) //object type
 console.log(typeof undefined) //undefined
