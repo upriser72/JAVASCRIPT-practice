@@ -21,7 +21,7 @@ let myCreatedDate = new Date(2023, 0, 23)
 
 let myTimeStamp = Date.now()
 
-// console.log(myTimeStamp);   //gives output in milliseconds
+// console.log(myTimeStamp);    //gives output in milliseconds
 // console.log(myCreatedDate.getTime());
 // console.log(Math.floor(Date.now()/1000));  //date in ms converted to seconds
 
