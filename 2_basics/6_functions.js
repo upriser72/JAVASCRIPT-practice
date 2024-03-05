@@ -37,6 +37,17 @@ const result =mulTwo(4,2)
 
 function login(name)
 {
+    // if(name===undefined)
+    // {
+    //     console.log("Please enter a username")
+    //     return 
+    // }
+
+    if(!name)  //because undefined,empty string,null are all evaluated to boolean false
+    {
+        console.log("PLease enter a username");
+        return
+    }    
     return `${name} just logged in`  //use back ticks for string interpolation
 }
 console.log(login("Riya"))
