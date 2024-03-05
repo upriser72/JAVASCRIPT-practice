@@ -8,4 +8,12 @@ function sayMyName(){
     console.log("A");
 }
 
-sayMyName()
+//sayMyName()
+
+function addTwo(num1,num2)
+{
+    
+    console.log(num1+num2)
+}
+
+addTwo(3,6)
