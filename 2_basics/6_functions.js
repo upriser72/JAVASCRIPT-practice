@@ -19,3 +19,23 @@ function addTwo(num1,num2)  //num1 num2 called parameters
 addTwo(3,6)  //3,6 called arguments
 
 addTwo(6,"4")  //converts string to num
+addTwo(4,null)  // added to null
+
+const res =addTwo(4,2)
+console.log("Result:", res)  //result undefined because the function doesn't return anything
+
+function mulTwo(num1,num2) 
+{
+    
+ let res=num1*num2
+ return res
+ console.log("APPLE")  //function terminates at resturn statement
+}
+
+const result =mulTwo(4,2)
+console.log("Result:", result)  // now result=8
+
+
+
+
+
