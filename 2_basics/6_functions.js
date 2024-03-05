@@ -22,7 +22,7 @@ addTwo(6,"4")  //converts string to num
 addTwo(4,null)  // added to null
 
 const res =addTwo(4,2)
-console.log("Result:", res)  //result undefined because the function doesn't return anything
+//console.log("Result:", res)  //result undefined because the function doesn't return anything
 
 function mulTwo(num1,num2) 
 {
@@ -33,7 +33,16 @@ function mulTwo(num1,num2)
 }
 
 const result =mulTwo(4,2)
-console.log("Result:", result)  // now result=8
+//console.log("Result:", result)  // now result=8
+
+function login(name)
+{
+    return `${name} just logged in`  //use back ticks for string interpolation
+}
+console.log(login("Riya"))
+console.log(login())  //undefined just logged in
+
+
 
 
 
