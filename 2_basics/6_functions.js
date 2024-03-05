@@ -10,10 +10,12 @@ function sayMyName(){
 
 //sayMyName()
 
-function addTwo(num1,num2)
+function addTwo(num1,num2)  //num1 num2 called parameters
 {
     
     console.log(num1+num2)
 }
 
-addTwo(3,6)
+addTwo(3,6)  //3,6 called arguments
+
+addTwo(6,"4")  //converts string to num
