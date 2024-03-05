@@ -15,15 +15,40 @@ const user = {  //using this keyword in object
 // console.log(this);
 //In node environment this gives empty context {} when ran alone whereas in browser console gives a global object WINDOW
 
-function chai()  //using this keyword in a function
-{
-    let username = "hitesh"
-    console.log(this.username); //gives undefined 
-    console.log(this) //gives a lot of values present inside this
-}
+// function chai()  //using this keyword in a function
+// {
+//     let username = "harry"
+//     console.log(this.username); //gives undefined 
+//     console.log(this) //gives a lot of values present inside this
+// }
 
 // chai()
 
+// const chai = function () {
+//     let username = "harry"
+//     console.log(this.username);  //similar result as above
+// }
 
 
+const chai =  () => { //using arrow function =>
+    let username = "harry"
+    console.log(this); //this CAN be used in arrow function
+}
+// chai()
+
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+//console.log(addTwo(3, 4))
+
+// const addTwo = (num1, num2) =>  num1 + num2  //THIS IS CALLED IMPLICIT RETURN- no need of return statement
+
+// const addTwo = (num1, num2) => ( num1 + num2 ) //parenthesis packs everything at once place
+
+//const addTwo = (num1, num2) => {username: "rose"}  //undefined (wrap in parenthesis)
+const addTwo = (num1, num2) => ({username: "rose"}) //using parenthesis
+
+
+console.log(addTwo(3, 4))
 
