@@ -7,6 +7,7 @@
 //         break;
 // }
 
+//IF BREAK STATEMENT IS NOT USED , EVERY STATEMENT "EXCEPT" DEFAULT GETS EXECUTED
 const month = "march"
 
 switch (month) {
