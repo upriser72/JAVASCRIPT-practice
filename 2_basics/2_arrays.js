@@ -5,7 +5,7 @@ const dc_heros = ["superman", "flash", "batman"]
 //adds dc array inside marvel array
 
 // console.log(marvel_heros);
-// console.log(marvel_heros[3][1]);
+// console.log(marvel_heros[3][1]); 
 
 // const allHeros = marvel_heros.concat(dc_heros)   //adds dc array at end of marvel array
 // console.log(allHeros);
@@ -19,6 +19,7 @@ const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_another_array = another_array.flat(Infinity)
 //gives all values of array under array as a single array
+
 console.log(real_another_array);
 
 
