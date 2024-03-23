@@ -13,7 +13,7 @@ map.set("US","UNITED STATES OF AMERICA")
 map.set("RS","RUSSIA")
 map.set("IN","INDIA")  //no repeated values taken
 
-console.log(map)
+//console.log(map)
 /*
 OUTPUT
 Map(3) {
@@ -23,3 +23,15 @@ Map(3) {
 }
 */
 //order of the input data remains same
+
+for(const key of map)
+{
+    console.log(key)   //gives output like [ 'IN', 'INDIA' ]
+}
+
+for(const [key,value] of map)  //by this,key and value can be accessed separately 
+{
+    console.log(key ,":-" ,value)  //gives output IN :- INDIA
+}
+
+//this syntax of for of loop is iterable on map but not on objects
