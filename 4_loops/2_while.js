@@ -22,3 +22,6 @@ do
     score++
 } 
 while (score <= 10);
+
+//although while has condition less than 10 but score value of 11 is still executed
+//do while is executed atleast once
