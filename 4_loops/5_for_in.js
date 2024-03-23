@@ -23,3 +23,5 @@ for (const key in programming) {
     //console.log(programming[key]);  //prints js rb py .....
 }
 
+//FOR IN CANNOT BE USED ON MAP BECAUSE IT IS NOT ITERABLE
+
