@@ -39,7 +39,7 @@ for (let index = 0; index < myArray.length; index++)
 // for (let index = 1; index <= 20; index++) {
 //     if (index == 5) {
 //         console.log(`Detected 5`);
-//         break
+//         break                              //stops execution after the condition is reached
 //     }
 //    console.log(`Value of i is ${index}`);
     
@@ -50,7 +50,7 @@ for (let index = 1; index <= 20; index++)
     if (index == 5)
      {
         console.log(`Detected 5`);
-        continue
+        continue                             // detected 5 then prints 6 rather than 5| skips 5
     }
    console.log(`Value of i is ${index}`);
     
