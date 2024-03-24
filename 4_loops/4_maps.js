@@ -14,6 +14,7 @@ map.set("RS","RUSSIA")
 map.set("IN","INDIA")  //no repeated values taken
 
 //console.log(map)
+
 /*
 OUTPUT
 Map(3) {
