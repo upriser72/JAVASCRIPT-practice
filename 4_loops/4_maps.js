@@ -23,6 +23,7 @@ Map(3) {
   'RS' => 'RUSSIA'
 }
 */
+
 //order of the input data remains same
 
 for(const key of map)
