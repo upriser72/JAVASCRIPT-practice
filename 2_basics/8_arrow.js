@@ -46,7 +46,7 @@ const chai =  () => { //using arrow function =>
 
 // const addTwo = (num1, num2) => ( num1 + num2 ) //parenthesis packs everything at once place
 
-//const addTwo = (num1, num2) => {username: "rose"}  //undefined (wrap in parenthesis)
+//const addTwo = (num1, num2) => {username: "rose"}  //EXPLICIT RETURN undefined (wrap in parenthesis)
 const addTwo = (num1, num2) => ({username: "rose"}) //using parenthesis
 
 
